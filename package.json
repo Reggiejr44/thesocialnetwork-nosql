@@ -1,27 +1,28 @@
 {
     "dependencies": {
-      "express": "^4.18.2",
-      "mongoose": "^6.7.0"
+        "express": "^4.18.2",
+        "mongodb": "^5.1.0",
+        "mongoose": "^6.7.0"
     },
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "name": "social-network-api",
     "description": "API for a social network that uses a NoSQL database  to allow website to handle large amounts of unstructured data",
     "version": "1.0.0",
     "main": "server.js",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/FOR-TIMI/Social-Network-API.git"
+        "type": "git",
+        "url": "git+https://github.com/FOR-TIMI/Social-Network-API.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/FOR-TIMI/Social-Network-API/issues"
+        "url": "https://github.com/FOR-TIMI/Social-Network-API/issues"
     },
     "homepage": "https://github.com/FOR-TIMI/Social-Network-API#readme",
     "devDependencies": {
-      "nodemon": "^2.0.21"
+        "nodemon": "^2.0.21"
     }
-  }
+}

@@ -9,14 +9,14 @@ const userController = {
             
             const users = await User
                             .find()
-                            .populate({
-                                path: "thoughts",
-                                select: "-__v",
-                            })
-                            .populate({
-                                path: 'friends',
-                                select: '-__v',
-                            })
+                            // .populate({
+                            //     path: "thoughts",
+                            //     select: "-__v",
+                            // })
+                            // .populate({
+                            //     path: 'friends',
+                            //     select: '-__v',
+                            // })
                             .select("-__v")
 
             if(!users.length){
