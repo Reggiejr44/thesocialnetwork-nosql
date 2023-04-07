@@ -13,15 +13,15 @@
     "main": "server.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/FOR-TIMI/Social-Network-API.git"
+        "url": "https://github.com/Reggiejr44/thesocialnetwork-nosql"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/FOR-TIMI/Social-Network-API/issues"
+        "url": "https://github.com/Reggiejr44/thesocialnetwork-nosql/issues"
     },
-    "homepage": "https://github.com/FOR-TIMI/Social-Network-API#readme",
+    "homepage": "https://github.com/Reggiejr44/thesocialnetwork-nosql#readme",
     "devDependencies": {
         "nodemon": "^2.0.21"
     }
